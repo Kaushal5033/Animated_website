@@ -81,7 +81,7 @@ video {
 
 #main {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.09);
+  background-color: rgba(0, 0, 0, 0.228);
 }
 
 #page1 {
@@ -273,6 +273,7 @@ video {
 }
 
 #green-div {
+  background-image: url("https://www.apple.com/in/iphone/home/images/overview/retail/alt/why_apple__ezn1ktvka6oi_large_2x.jpg");
   height: 30vh;
   display: flex;
   align-items: center;
@@ -299,13 +300,13 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0071E3", en
 #green-div img {
   height: 100%;
   object-fit: cover;
-  width: 14%;
+  width: 17%;
 }
 
 #page3 {
   height: 100vh;
-  width: 100%;
-  background-color: #000;
+  width: 100vw;
+  background-image:url("watchos_watch_hw__fy5v44g1jlu2_large_2x.jpg");
   display: flex;
   align-items: center;
   position: relative;
@@ -321,7 +322,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0071E3", en
 
 #page3 img {
   position: absolute;
-  height: 60px;
+  height: 50px;
 }
 #page3 #colon1 {
   left: 15%;
@@ -386,9 +387,8 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0071E3", en
   -webkit-text-stroke: 2px #fff;
 }
 #footer {
-  height: 40vh;
-  width: 100%;
-  background: linear-gradient(to left bottom, #119f3a 0%, #a3d421 80%);
+  height: 60vh;
+  width: 100vw;
   position: relative;
   display: flex;
   align-items: center;
@@ -405,6 +405,11 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0071E3", en
 #f1 img {
   height: 100px;
 }
+#footimg:hover{
+  scale: 1.3;
+  transition-duration: 1s ;
+}
+
 #f1,
 #f2,
 #f3,
@@ -412,31 +417,82 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#0071E3", en
   width: fit-content;
   position: relative;
   z-index: 99;
-  /* background-color: red; */
 }
 #f2 h3 {
-  font-size: 1.6vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
+  font-size: 5vw;
+  top: -15%;
   font-weight: 900;
-  margin-bottom: 8px;
+  font-family: gilroy;
+  color: #000000;
+  -webkit-text-stroke: 2px #fbfafa53;
+}
+.ending{
+  width: 100vw;
+  height: 105vh;
+  background-color: #0b0b0b;
+}
+.ending p {
+  font-size: 14px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 1.5;
+  display: flex;
+  
+}
+hr{
+  margin-right: 14%;
+  margin-left: 13.5%;
+}
+/* #cl1{
+  display: flex;
+  gap: 0;
+  font-size: smaller;
+} */
+.c1{
+  line-height: 1;
+  position: absolute;
+}
+.c1 h5{
+  position: relative;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+#acc{
+  margin-left: 24%;
+  margin-top: 3.3%;
+  position: relative;
+}
+#ent{
+  margin-left: -22%;
+  margin-top: 14%;
+  position: relative;
+
+}
+#pop{
+  margin-left: -20%;
+  margin-top: 14%;
+  position: relative;
 }
 
-#f3 h3 {
-  font-size: 1.6vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 800;
-  margin-bottom: 8px;
+.c2 p{
+  margin-top: 4%;
+  margin-left: -17%;
 }
-#f4 h4 {
-  font-size: 1vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 600;
-  line-height: 20px;
-  margin-bottom: 8px;
+
+.c2{
+  display: flex;
+}
+.c3 img{
+  width: 100%;
+  height: 100%;
+  padding-top:80px;
+
+}
+.div{
+  width: 100%;
+  height: 10px;
+  padding-bottom: 50px;
+  background-color: #000000;
 }
